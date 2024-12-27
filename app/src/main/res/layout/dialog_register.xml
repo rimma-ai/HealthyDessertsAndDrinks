@@ -1,0 +1,76 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/button_color">
+    <!-- Крестик для закрытия -->
+    <ImageView
+        android:id="@+id/close_register"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:padding="12dp"
+        android:layout_gravity="end"
+        android:src="@drawable/ic_close_24"
+        android:contentDescription="@string/close" />
+
+    <!-- Поле для имени -->
+    <EditText
+        android:id="@+id/register_name"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:hint="@string/hint_register_name"
+        android:backgroundTint="@color/background_color"
+        android:textColor="@color/text_color"
+        android:inputType="text"
+        android:autofillHints="name" />
+
+    <!-- Поле для электронной почты -->
+    <EditText
+        android:id="@+id/register_email"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:hint="@string/hint_register_email"
+        android:backgroundTint="@color/background_color"
+        android:textColor="@color/text_color"
+        android:inputType="textEmailAddress"
+        android:autofillHints="emailAddress" />
+
+    <!-- Поле для пароля -->
+    <EditText
+        android:id="@+id/register_password"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:hint="@string/hint_register_password"
+        android:backgroundTint="@color/background_color"
+        android:textColor="@color/text_color"
+        android:inputType="textPassword"
+        android:autofillHints="password" />
+
+    <!-- Подтверждение пароля -->
+    <EditText
+        android:id="@+id/register_confirm_password"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:hint="@string/hint_register_confirm_password"
+        android:backgroundTint="@color/background_color"
+        android:textColor="@color/text_color"
+        android:inputType="textPassword"
+        android:autofillHints="password" />
+
+    <!-- Кнопка регистрации -->
+    <Button
+        android:id="@+id/register_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:text="@string/register_button"
+        android:backgroundTint="@color/background_color"
+        android:textColor="@color/button_color" />
+</LinearLayout>

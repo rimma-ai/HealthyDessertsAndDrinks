@@ -1,0 +1,40 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_color"
+    android:gravity="center">
+
+    <!-- Логотип -->
+
+    <!-- Кнопка входа -->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="492dp"
+        android:layout_height="530dp"
+        android:layout_marginBottom="32dp"
+        android:contentDescription="@string/app_logo"
+        android:src="@drawable/ic_logo" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_button"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/button_color"
+        android:layout_marginTop="16dp" />
+
+    <!-- Кнопка регистрации -->
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register_button"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/button_color"
+        android:layout_marginTop="16dp" />
+
+
+</LinearLayout>

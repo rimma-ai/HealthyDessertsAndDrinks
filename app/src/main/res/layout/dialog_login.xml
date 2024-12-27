@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/rounded_background"
+    android:gravity="center">
+
+    <!-- Крестик для закрытия -->
+    <ImageView
+        android:id="@+id/close_login"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:padding="12dp"
+        android:layout_gravity="end"
+        android:src="@drawable/ic_close_24"
+        android:contentDescription="@string/close" />
+
+    <!-- Поле для ввода логина -->
+    <EditText
+        android:id="@+id/login_username"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/hint_username"
+        android:backgroundTint="@color/background_color"
+        android:textColor="@color/text_color"
+        android:inputType="text"
+        android:autofillHints="username"
+        android:layout_marginTop="16dp" />
+
+    <!-- Поле для ввода пароля -->
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/hint_password"
+        android:backgroundTint="@color/background_color"
+        android:textColor="@color/text_color"
+        android:inputType="textPassword"
+        android:autofillHints="password"
+        android:layout_marginTop="8dp" />
+
+    <!-- Кнопка для входа -->
+    <Button
+        android:id="@+id/login_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/login_button"
+        android:backgroundTint="@color/background_color"
+        android:textColor="@color/button_color"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

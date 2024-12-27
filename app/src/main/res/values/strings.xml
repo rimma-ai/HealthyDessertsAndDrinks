@@ -1,0 +1,50 @@
+<resources>
+    <!-- Общие строки -->
+    <string name="hint_username">Введите логин</string>
+    <string name="hint_password">Введите пароль</string>
+    <string name="hint_register_name">Введите имя</string>
+    <string name="hint_register_email">Введите электронную почту</string>
+    <string name="hint_register_password">Введите пароль</string>
+    <string name="hint_register_confirm_password">Подтвердите пароль</string>
+    <string name="login_button">Войти</string>
+    <string name="register_button">Зарегистрироваться</string>
+    <string name="close">Закрыть</string>
+    <string name="app_name">Healthy Desserts and Drinks</string>
+
+
+    <!-- Категории -->
+    <string name="category_all">Все</string>
+    <string name="category_desserts">Десерты</string>
+    <string name="category_drinks">Напитки</string>
+
+    <!-- Избранное -->
+    <string name="favorite_icon">Добавить в избранное</string>
+    <string name="favorites_title">Избранное</string>
+
+    <!-- Рецепты -->
+    <string name="recipe_image">Изображение рецепта</string>
+    <string name="dessert_image">Изображение десерта</string>
+    <string name="dessert_name">Название десерта</string>
+    <string name="dessert_calories">Калории: %1$d ккал</string>
+    <string name="dessert_image_description">Изображение десерта</string>
+
+    <!-- Дополнительные строки -->
+    <string name="profile_title">Профиль</string>
+    <string name="settings_title">Настройки</string>
+    <string name="home_title">Главная</string>
+    <string name="app_logo">Логотип приложения</string>
+
+    <string name="hint_name">Введите имя</string>
+    <string name="hint_email">Введите email</string>
+    <string name="hint_phone">Введите телефон</string>
+    <string name="save">Сохранить</string>
+    <string name="logout">Выйти</string>
+    <string name="search_hint">Поиск по названию блюда</string>
+
+
+
+
+
+
+
+</resources>
